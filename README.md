@@ -35,7 +35,14 @@ mvn clean test
 ```bash
 mvn test -Dgroups=positive
 ```
-
+## Структура проекта
+```
+apiTestsRestassured/
+├── pom.xml
+├── src/test/java/com/automation/api/
+│   └── ApiTests.java
+└── README.md
+```
 ### Только негативные тесты
 ```bash
 mvn test -Dgroups=negative
